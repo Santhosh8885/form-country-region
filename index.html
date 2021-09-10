@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class='main'>
+        <div class='container'>
+
+          <form id="signup" class="form">
+            <h1>FORM</h1>
+            <div class="form-field">
+                <label for="username">Name:</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+           
+            
+            <div class='row w3-margin-bottom'>
+                <div class='col-md-6 col-xs-6'>
+                  <p><b></b></p>
+                </div>
+                <div class='col-md-6 col-xs-6'>
+                  <select id="country" class='form-control'><option value="">-- Country --</option></select>
+                </div>
+              </div> 
+            
+        
+              <div class='row w3-margin-bottom'>
+                <div class='col-md-6 col-xs-6'>
+                  <p><b></b></p>
+                </div>
+                <div class='col-md-6 col-xs-6'>
+                  <select id="region" class='form-control'><option value="">-- State --</option></select>
+                </div>
+              </div> 
+             
+              
+            
+              
+                <div id='location'></div>
+              </div> 
+              <div class="btn-field " >
+                <input class="btn" type="submit" value="Submit" style="background-color: rgb(90, 178, 250);">
+            </div>
+            </div>    
+
+           
+            
+        </form>
+         
+
+    <script src="script.js"></script>
+</body>
+</html>
